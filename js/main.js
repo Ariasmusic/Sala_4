@@ -32,17 +32,17 @@ document.addEventListener('DOMContentLoaded', () => {
         'vestuario-prendas': {
             title: 'Prendas y materiales',
             html: `<p>Sombreros de paja o lana; ruanas (de un solo color o a rayas); ponchos; pantalones; camisas; calzoncillos; mantillas; pañuelos para la cabeza; mochilas de fique; alpargatas; vituallas; morrales; monteras; vaquetas (piel curtida de ternera); cordobanes (piel curtida de cabra); badanas (piel curtida de oveja); lienzos; frazadas; bayetas; mantas; esteras de esparto; sogas y canastos.</p>
-             <p class="muted">Fuente: Presentación Sala 4. :contentReference[oaicite:0]{index=0}</p>`
+            `
         },
         'vestuario-campesinos': {
             title: 'Campesinos de Tunja',
             html: `<p>Los campesinos de la provincia de Tunja llevaban camisón de zaraza azul, mantilla de paño azul y sombrero cubano —también ruanas gruesas, cuadradas y de lana cruda, usadas como abrigo, lecho y en ocasiones mortaja—; sombrero de lana gris de anchas alas y copa baja; alpargatas en los pies.</p>
-             <p class="muted">Fuente: Presentación Sala 4. :contentReference[oaicite:1]{index=1}</p>`
+             `
         },
         'vestuario-elite': {
             title: 'Tropas de élite (Húsares, Dragones, Rifles, Británicos)',
             html: `<p>Las unidades de élite como Húsares y Dragones llevaban chaquetas ligeras azules, pantalones estilo hússar, shakos adornados con penachos o plumas y placas de identificación. Algunos usaban colbac o morrión (gorros de pelo) con formas cilíndricas y penachos. La Legión Británica, la Guardia de Honor de Bolívar y el Batallón Rifles eran ejemplos de unidades con más uniformidad.</p>
-             <p class="muted">Fuente: Presentación Sala 4. :contentReference[oaicite:2]{index=2}</p>`
+             `
         },
         'vestuario-social': {
             title: 'Condición social y apariencia',
@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', () => {
         'alimentos-cultivos': {
             title: 'Cultivos y producción',
             html: `<p>Cultivos: maíz (mazorca), trigo, cebada, fríjoles, lentejas, habas, rubas, cubios, nabos, ibias, arveja, cebollas, garbanzo, papa, topocho, arracacha, yuca, plátano, calabazas, ahuyamas, guatilas, hortalizas, café y tabaco. Producción de panela, quesos y extracción de sal.</p>
-             <p class="muted">Fuente: Presentación Sala 4. :contentReference[oaicite:3]{index=3}</p>`
+            `
         },
         'alimentos-frutas': {
             title: 'Frutas y derivados',
@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', () => {
         'alimentos-bebidas': {
             title: 'Bebidas tradicionales',
             html: `<p>Agua, leche, chocolate, aguardiente, guarapo (preparado de panela y conservado en tinajas), chicha (elaborada con maíz y melao). En menor medida se consumía ron, brandy y vino.</p>
-             <p class="muted">Fuente: Presentación Sala 4. :contentReference[oaicite:4]{index=4}</p>`
+             `
         },
         'alimentos-preparaciones': {
             title: 'Preparaciones y menús',
@@ -71,19 +71,19 @@ document.addEventListener('DOMContentLoaded', () => {
         'alimentos-abastecimiento': {
             title: 'Abastecimiento y rol de las "juanas"',
             html: `<p>El abastecimiento se realizaba muchas veces desde la población: mujeres que acompañaban las tropas (las "juanas") preparaban alimentos y cargaban bultos. En el paso por el páramo de Pisba, mujeres de pueblos y caseríos acercaban canastos con alimentos. Para las tropas realistas, las mujeres recibían bultos de harina para preparar pan y galletas.</p>
-             <p class="muted">Fuente: Presentación Sala 4. :contentReference[oaicite:5]{index=5}</p>`
+            `
         },
 
         // Armas
         'armas-lista': {
             title: 'Lista de armas',
             html: `<p>Armas: fusiles, carabinas, pistolas, trabucos, bayonetas, mosquetes, arcabuces, cañones, obuses, escopetas, sables, espadas, lanzas, palos, cuchillos domésticos, herramientas de labranza (rejos, picas, azadones), oz, resorteras, trinchetes, machetes y macanas.</p>
-             <p class="muted">Fuente: Presentación Sala 4. :contentReference[oaicite:6]{index=6}</p>`
+             `
         },
         'armas-municion': {
             title: 'Municiones y medidas',
             html: `<p>Municiones: pólvora, plomo, piedra de chispa, cartuchos (balas). Cartuchos de fusil ~2 onzas; cada soldado llevaba hasta 50 cartuchos; bayonetas de ~50 cm; fusiles de chispa ~1.5 m con alcance de 2–3 cuadras; cañones con alcance de hasta 5 cuadras.</p>
-             <p class="muted">Fuente: Presentación Sala 4. :contentReference[oaicite:7]{index=7}</p>`
+            `
         },
         'armas-artesanal': {
             title: 'Armas artesanales y fabricación',
@@ -92,7 +92,7 @@ document.addEventListener('DOMContentLoaded', () => {
         'armas-mantenimiento': {
             title: 'Mantenimiento y conservación',
             html: `<p>Ante la humedad, los soldados untaban sebo de res a los fusiles para evitar el moho. A lanzas y cuchillos se les sacaba filo constantemente. El parque de equipo debía ser custodiado por 10–20 hombres y era transportado en mulas en la retaguardia.</p>
-             <p class="muted">Fuente: Presentación Sala 4. :contentReference[oaicite:8]{index=8}</p>`
+        `
         },
 
         // Roles & logística
@@ -113,7 +113,7 @@ document.addEventListener('DOMContentLoaded', () => {
         'racion-ideal': {
             title: 'Ración ideal para un soldado',
             html: `<p><strong>1 libra de pan</strong>, <strong>½ libra de carne</strong>, <strong>4 onzas de menestra</strong> y <strong>½ onza de sal</strong>. En campañas se entregaban raciones para 1–2 días; cuando escaseaba la comida se daba media ración y la carne a veces se servía sin sal. En algunos momentos se entregaron 2 onzas de sal por soldado.</p>
-             <p class="muted">Fuente: Presentación Sala 4. :contentReference[oaicite:9]{index=9}</p>`
+         `
         }
     };
 
