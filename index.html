@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sala 4 - Museo Digital</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Inter:wght@300;400;600&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <div class="logo-circle">⚜</div>
+            <h1>Sala 4</h1>
+            <p>Museo Digital</p>
+        </div>
+
+        <nav class="menu">
+            <div class="menu-item">
+                <button class="menu-btn" data-section="inicio">
+                    <span class="icon">🏛️</span> Inicio
+                </button>
+            </div>
+
+            <div class="menu-item">
+                <button class="menu-btn has-sub" data-submenu="vestuario">
+                    <span class="icon">👕</span> Vestuario
+                </button>
+                <div class="submenu" id="sub-vestuario">
+                    <button data-section="vestuario-prendas">Prendas y materiales</button>
+                    <button data-section="vestuario-campesinos">Campesinos de Tunja</button>
+                    <button data-section="vestuario-elite">Tropas de élite</button>
+                    <button data-section="vestuario-social">Condición social</button>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <button class="menu-btn has-sub" data-submenu="alimentacion">
+                    <span class="icon">🥘</span> Alimentación
+                </button>
+                <div class="submenu" id="sub-alimentacion">
+                    <button data-section="alimentos-cultivos">Cultivos</button>
+                    <button data-section="alimentos-frutas">Frutas</button>
+                    <button data-section="alimentos-bebidas">Bebidas</button>
+                    <button data-section="alimentos-preparaciones">Preparaciones</button>
+                    <button data-section="alimentos-abastecimiento">Las Juanas</button>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <button class="menu-btn has-sub" data-submenu="armas">
+                    <span class="icon">⚔️</span> Armas
+                </button>
+                <div class="submenu" id="sub-armas">
+                    <button data-section="armas-lista">Lista de armas</button>
+                    <button data-section="armas-municion">Municiones</button>
+                    <button data-section="armas-artesanal">Armas artesanales</button>
+                    <button data-section="armas-mantenimiento">Mantenimiento</button>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <button class="menu-btn has-sub" data-submenu="logistica">
+                    <span class="icon">🎒</span> Logística
+                </button>
+                <div class="submenu" id="sub-logistica">
+                    <button data-section="roles-juana">La Juana</button>
+                    <button data-section="roles-vanguardia">Vanguardia</button>
+                    <button data-section="roles-parque">Parque y transporte</button>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <button class="menu-btn" data-section="racion-ideal">
+                    <span class="icon">🥖</span> Ración del soldado
+                </button>
+            </div>
+
+            <div class="menu-item">
+                <button class="menu-btn" data-section="galeria">
+                    <span class="icon">🖼</span> Galería
+                </button>
+            </div>
+        </nav>
+    </aside>
+
+    <main id="content">
+        <!-- SPA content injected by JS -->
+    </main>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <button id="closeModal">✕</button>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
